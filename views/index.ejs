@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Adoption Page</title>
+</head>
+
+<body>
+  <h1>WE ALSO NEED A HOME......</h1>
+  <div class="conatiner">
+
+    <form action="/submit" method="post">
+      <button type="submit" id="one" value="teen" name="choice" >  </button>
+      <button type="submit" id="two" value="chinki" name="choice">  </button>
+      <button type="submit" id="three" value="titan" name="choice"></button>
+      <button type="submit" id="four" value="go" name="choice">  </button>
+
+    </form>
+
+    <div class="shown">
+      <%if (locals.jankari) {%>
+
+        <h2 id="main">
+ <%=jankari.name %>
+        </h2>
+
+        <ul>
+          <h4>Charcterstics:</h4>
+          <li>
+            <%=jankari.characterstics.looks.color%>
+              <br>
+              <%=jankari.characterstics.looks.quality%>
+              <br>
+              <%=jankari.characterstics.looks.color%>
+            </li>
+          <h4>About:</h4>
+          <li>
+            <%=jankari.characterstics.About_Them.gender%>
+              <br>
+              <%=jankari.characterstics.About_Them.weight%>
+                <br>
+                <%=jankari.characterstics.About_Them.age%>
+                  <br>
+                  <%=jankari.characterstics.About_Them.breed%>
+                    <br>
+                    <%=jankari.characterstics.About_Them.sibling%>
+
+          </li>
+          <h4>Needs:</h4>
+          <li>
+            <%=jankari.characterstics.needs.food%>
+              <br>
+              <%= jankari.characterstics.needs.vacination%>
+          </li>
+
+
+          <h4>Address:</h4>
+          <li>
+            <%=jankari.characterstics.foradoption.location%>
+            <br>
+            <%=jankari.characterstics.foradoption.quantity%>
+            <br>
+            <%=jankari.characterstics.foradoption.contact_time%>
+            <br>
+            <%=jankari.characterstics.foradoption.contact%>
+                </li>
+
+                <li>
+                  <%if(jankari.name=="TEEN") {%> 
+                      <button class="story"><a href="/teen">My Story</a></button>
+                      <% }else if(jankari.name=="CHINKI") {%>
+                      <button class="story"><a href="/chinki">My Story</a></button>
+       <% } else if (jankari.name=="GO") { %>
+                     <button class="story"><a href="/go">My Story</a></button>
+        <% } else if(jankari.name=="TITAN") { %>
+           <button class="story"><a href="/titan">My Story</a></button>
+          <% }else{%>
+            <button class="story"><a href="/">Refresh</a></button>
+   
+          <%}%>
+          </li>       
+          </ul>
+
+        <%} else {%>
+          <h2>Pick your favourite Dogo👆</h2>
+          <%}%>
+
+    </div>
+</body>
+
+</html>
