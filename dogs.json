@@ -1,0 +1,142 @@
+[
+  {
+    "id": "one",
+    "type": "dog",
+    "name": "TEEN",
+    "characterstics": {
+      "looks": {
+        "color": "Black in color with yellow straps",
+        "quality": "well-mannered",
+        "capcity": "smart or sharp memory."
+     
+      },
+      
+      
+      
+      "About_Them": {
+        "gender": "Male",
+        "weight": "4kg",
+        "age": "2 month old",
+        "breed": "Stray Dogs",
+        "sibling": "4 siblings"
+      },
+      "needs": {
+        "food": "2-3 bowl of milk",
+        "vacination": "Not Vaccinated Yet"
+      },
+      "foradoption": {
+        "contact":["9911124378"],
+        "location": "Sabzi Mandi",
+        "quantity": "Near Molar-Band Market",
+        "contact_time":"free for 24/7"
+        
+      }
+    }
+  },
+  {
+    "id": "two",
+    "type": "dog",
+    "name": "CHINKI",
+    "characterstics": {
+      "looks": {
+        "color": "yellow in color with white mouth",
+        "quality": "well-mannered",
+        "capcity": "smart or sharp memory."
+     
+      },
+      
+      "About_Them": {
+        "gender": "FEMALE",
+        "weight": "3.5kg",
+        "age": "2 month old",
+        "breed": "Stray Dogs",
+        "sibling": "4 siblings"
+      },
+   
+      "needs": {
+        "food": "2-3 bowl of milk",
+        "vacination": "Not Vaccinated Yet"
+      },
+      "foradoption": {
+        "contact": "9911124378",
+        "location": "Sabzi Mandi",
+        "quantity": "Near Molar-Band Market",
+        "contact_time":"free for 24/7"
+        
+      }
+    }
+  },
+  {
+    "id": "three",
+    "type": "dog",
+    "name": "TITAN",
+    "characterstics": {
+      "looks": {
+        "color": "pale yellow in color with black cute mouth",
+        "quality": "cute & clumsy",
+        "capcity": "active or quite at the same time."
+      },
+   
+    
+       
+      "About_Them": {
+        "gender": "MALE",
+        "weight": "2.5kg",
+        "age": "2 month old",
+        "breed": "Stray Dogs",
+        "sibling": "4 siblings"
+      },
+      "needs": {
+        "food": "2 bowl of milk",
+        "vacination": 
+          "Not Vaccinated Yet"
+        
+      },
+     
+     
+      "foradoption": {
+        "contact": "9911124378",
+        "location": "Sabzi Mandi",
+        "quantity": "Near Molar-Band Market",
+        "contact_time":"free for 24/7"
+        
+      }
+    }
+    },
+  
+  {
+    "id": "four",
+    "type": "dog",
+    "name": "GO",
+    "characterstics": {
+      "looks": {
+        "color": "Black in color with Brownish straps",
+        "quality": "quite & understanding",
+        "capcity": "calm or pure hearted."
+      },
+          
+      "About_Them": {
+        "gender": "MALE",
+        "weight": "3kg",
+        "age": "2 month old",
+        "breed": "Stray Dogs",
+        "sibling": "4 siblings"
+      },
+      "needs": {
+        "food": "2 bowl of milk",
+        "vacination": 
+          "Not Vaccinated Yet"
+        
+      },
+     
+     
+      "foradoption": {
+        "contact": "9911124378",
+        "location": "Sabzi Mandi",
+        "quantity": "Near Molar-Band Market",
+        "contact_time":"free for 24/7"
+        
+      }
+    }
+  }
+]
